@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+
+body {
+font-family: 'Montserrat', sans-serif;
+background-image: url(https://img.freepik.com/fotos-kostenlos/strukturierter-hintergrund-des-designraumes-papier_53876-42312.jpg);
+padding: 100px 0;
+}
+
+.h3{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.container{
+  width: 800px;
+  min-height: 500px;
+  border: 10px solid #fff;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+height: 150px;
+
+}
+
+.tittle-block{
+  position: relative;
+  display: flex;
+  width: 80%;
+  height: 100%;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+background-image: url(https://media.istockphoto.com/photos/programming-source-code-abstract-background-picture-id1047259374?k=20&m=1047259374&s=612x612&w=0&h=pt3XbBvrmiYgoYmVzsaUeXtV8vw_jJI9Ly8P7AL6Qig=);
+color: #fff;
+margin-right: 10px;
+
+}
+
+.tittle-block::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+
+}
+
+.tittle{
+  position: relative;
+  z-index: 1;
+
+}
+.userpic{
+  display: flex;
+  width: 20%;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEl2Vo0ckvKbpTZsQABXPMbqTskRy1UkEihKt1nILFfZ7uHGVvqkWFmsEccYA9jrRsTmQ&usqp=CAU);
+
+  height: 100%;
+}
+
+.nav ul{
+  display: flex;
+  background: #d1d1d1;
+
+}
+
+.nav li{
+  margin-right: 30px;
+}
+.nav li a{
+  display: flex;
+padding: 20px;
+text-decoration: none;
+color: #404040;
+font-weight: bold;
+border-right: 1px solid #d1d1d1;
+transition: background .3s ease;
+
+}
+
+.nav li a:hover {
+  background: rgba(190,190,190,);
+}
+
+.content-wrapper{
+  display: flex;
+}
+
+.content{
+  display: flex;
+  width: 70%;
+  padding: 20px;
+
+}
+
+.sidebar{
+  display: flex;
+  width: 30%;
+  padding: 20px;
+}
+
+.skills{
+  margin: 10px 0;
+
+}
+.Bod{
+  font-weight: bold;
+}
+
+.skills li{
+  margin: 10px 0;
+
+}
+
+.skills li:hover{
+  transform: translateX(10px)
+}
